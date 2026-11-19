@@ -1,1 +1,1 @@
-# akustiline_kaamera_v1
+# Akustilise kaamera projekt
