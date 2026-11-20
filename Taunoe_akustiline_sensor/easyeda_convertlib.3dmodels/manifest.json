@@ -1,0 +1,158 @@
+{
+    "components": [
+        {
+            "componentId": "C7668",
+            "files": {
+                "step": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65.step",
+                "wrl": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65.wrl"
+            },
+            "footprint": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+            "model": {
+                "name": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+                "rotationDeg": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 90
+                },
+                "stepOffsetMm": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translationMm": {
+                    "x": 1015.8095000000001,
+                    "y": 762.1016000000001,
+                    "z": 0
+                },
+                "uuid": "f8ba5b4174b9490d8c445fbe2ed40b80"
+            },
+            "modelStem": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+            "status": "success",
+            "symbol": "SN74LVC244APWR"
+        },
+        {
+            "componentId": "C5656610",
+            "files": {
+                "step": "MIC-SMD_6P-L3.5-W2.7-P0.90-BL.step",
+                "wrl": "MIC-SMD_6P-L3.5-W2.7-P0.90-BL.wrl"
+            },
+            "footprint": "MIC-SMD_6P-L3.5-W2.7-P0.90-BL",
+            "model": {
+                "name": "MIC-SMD_6P-L3.5-W2.7-P0.90-BL",
+                "rotationDeg": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 90
+                },
+                "stepOffsetMm": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translationMm": {
+                    "x": 1017.0855198,
+                    "y": 759.9750104,
+                    "z": 0
+                },
+                "uuid": "7098589742ce4a2fb4f80d2ad85dc714"
+            },
+            "modelStem": "MIC-SMD_6P-L3.5-W2.7-P0.90-BL",
+            "status": "success",
+            "symbol": "ICS-43434_C5656610"
+        },
+        {
+            "componentId": "C131394",
+            "files": {
+                "step": "C0402_L1.0-W0.5-H0.5.step",
+                "wrl": "C0402_L1.0-W0.5-H0.5.wrl"
+            },
+            "footprint": "C0402",
+            "model": {
+                "name": "C0402_L1.0-W0.5-H0.5",
+                "rotationDeg": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "stepOffsetMm": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translationMm": {
+                    "x": 1016,
+                    "y": 762,
+                    "z": 0
+                },
+                "uuid": "32fe2cf9314f444ca2785a33c2db7189"
+            },
+            "modelStem": "C0402_L1.0-W0.5-H0.5",
+            "status": "success",
+            "symbol": "CC0402KRX7R9BB104"
+        },
+        {
+            "componentId": "C19666",
+            "files": {
+                "step": "C0603_L1.6-W0.8-H0.8.step",
+                "wrl": "C0603_L1.6-W0.8-H0.8.wrl"
+            },
+            "footprint": "C0603",
+            "model": {
+                "name": "C0603_L1.6-W0.8-H0.8",
+                "rotationDeg": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "stepOffsetMm": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translationMm": {
+                    "x": 1015.503049,
+                    "y": 762.1270000000001,
+                    "z": 0
+                },
+                "uuid": "ac9b32e974bc448eab36b1293f859dcb"
+            },
+            "modelStem": "C0603_L1.6-W0.8-H0.8",
+            "status": "success",
+            "symbol": "CL10A475KO8NNNC"
+        },
+        {
+            "componentId": "C15850",
+            "files": {
+                "step": "C0805_L2.0-W1.3-H1.3.step",
+                "wrl": "C0805_L2.0-W1.3-H1.3.wrl"
+            },
+            "footprint": "C0805",
+            "model": {
+                "name": "C0805_L2.0-W1.3-H1.3",
+                "rotationDeg": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "stepOffsetMm": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translationMm": {
+                    "x": 1014.586998,
+                    "y": 762,
+                    "z": 0
+                },
+                "uuid": "b87ab0c5465a48b3a1c9a6dac8d30bc5"
+            },
+            "modelStem": "C0805_L2.0-W1.3-H1.3",
+            "status": "success",
+            "symbol": "CL21A106KAYNNNE"
+        }
+    ],
+    "format": "EasyKiConverter.3d-model-manifest",
+    "library": "easyeda_convertlib",
+    "targetFormat": 0,
+    "version": 1
+}

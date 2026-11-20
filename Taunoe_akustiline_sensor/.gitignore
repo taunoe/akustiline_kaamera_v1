@@ -1,0 +1,51 @@
+# KiCad ajutised ja varukoopiafailid
+*.bak
+*.bck
+*.000
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+*-autosave.*
+*.lck
+~*.tmp
+
+# KiCad 5/6 vanemad failid (juhuks kui on sega- või pärandprojekte)
+*.net
+*.dcm
+*.rpt
+*.erc
+*.drc
+
+# Genereeritud tootmis- ja väljundfailid (Gerber, puur, BOM, 3D, PDF)
+# Soovi korral eemalda ridade eest #, kui tahad mõnda neist hoida
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gm1
+*.gbrjob
+*.drl
+*.xln
+*.pos
+*.csv
+*.pdf
+*.svg
+*.step
+*.stp
+*.wrl
+*.zip
+
+# SPICE simulatsiooni väljundid ja ajutised failid
+*.raw
+*.out
+*.cir
+
+# Operatsioonisüsteemi ja redaktori failid
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
