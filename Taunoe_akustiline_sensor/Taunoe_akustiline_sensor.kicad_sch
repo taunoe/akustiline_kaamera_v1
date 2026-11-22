@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Akustilise kaamera andur")
-		(date "2026-11-20")
+		(date "2026-11-22")
 		(rev "v1")
 		(company "Tauno Erik")
 	)
@@ -1392,6 +1392,18 @@
 		(uuid "54316c12-e186-4276-ac11-dac908788cef")
 	)
 	(rectangle
+		(start 281.94 27.94)
+		(end 341.63 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7ef48b66-6347-4477-9d18-99abaf6fb80f")
+	)
+	(rectangle
 		(start 113.03 27.94)
 		(end 215.9 86.36)
 		(stroke
@@ -1554,7 +1566,7 @@
 	)
 	(text "WS  - Serial Data-Word Select\nLR  - Left/Right channel select\nSCK - Serial Data Clock\nSD  - Serial Data Out"
 		(exclude_from_sim no)
-		(at 299.466 40.132 0)
+		(at 304.546 230.124 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1693,6 +1705,19 @@
 			(justify left)
 		)
 		(uuid "bb23b315-0c61-4134-893a-92b9437abb13")
+	)
+	(text "Testpunktid"
+		(exclude_from_sim no)
+		(at 284.734 33.782 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bb2bebfb-fac4-407e-88d8-ae960e493080")
 	)
 	(text "5. Vasak mikrofon"
 		(exclude_from_sim no)
@@ -2740,6 +2765,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 60.96) (xy 294.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac2e455-bcbf-4b73-970a-05bd3c0104e1")
+	)
+	(wire
+		(pts
 			(xy 146.05 64.77) (xy 151.13 64.77)
 		)
 		(stroke
@@ -3307,6 +3342,26 @@
 			(type default)
 		)
 		(uuid "91363031-5b19-439d-8265-126db0a5e7ab")
+	)
+	(wire
+		(pts
+			(xy 308.61 66.04) (xy 294.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91464a4d-4faa-4ca5-892d-6ec7096b7dce")
+	)
+	(wire
+		(pts
+			(xy 308.61 68.58) (xy 294.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92be3341-dc7b-40d2-a7e2-0f99e5fe14b5")
 	)
 	(wire
 		(pts
@@ -3950,6 +4005,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 45.72) (xy 294.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a6db7e-694e-4dd2-8127-e61ee9b76d4d")
+	)
+	(wire
+		(pts
 			(xy 256.54 246.38) (xy 267.97 246.38)
 		)
 		(stroke
@@ -4070,6 +4135,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 63.5) (xy 294.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a6a705-af56-419b-a0c7-5470be90b548")
+	)
+	(wire
+		(pts
 			(xy 40.64 156.21) (xy 40.64 166.37)
 		)
 		(stroke
@@ -4177,6 +4252,16 @@
 			(type default)
 		)
 		(uuid "e110ba45-b602-4634-bd61-b8847477ff4f")
+	)
+	(wire
+		(pts
+			(xy 309.88 48.26) (xy 294.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a68ce0-b6c1-46ee-8d61-40bc2968de64")
 	)
 	(wire
 		(pts
@@ -4310,6 +4395,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 50.8) (xy 294.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f281e584-9fec-402d-9aa7-8879173ab6a4")
+	)
+	(wire
+		(pts
 			(xy 53.34 50.8) (xy 53.34 55.88)
 		)
 		(stroke
@@ -4357,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "f5e5c273-a105-4a25-a25e-5bfa1d7bae77")
+	)
+	(wire
+		(pts
+			(xy 309.88 53.34) (xy 294.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c5d525-7d33-49d2-80c8-35facbe47caf")
 	)
 	(wire
 		(pts
@@ -4488,6 +4593,16 @@
 		)
 		(uuid "099c6fe0-dbca-4784-aa01-bb2e1b14b302")
 	)
+	(label "SCK_OUT_2"
+		(at 294.64 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c26d3da-4dda-455d-866d-0091ef7b0d8f")
+	)
 	(label "WS_OUT_1"
 		(at 121.92 54.61 0)
 		(effects
@@ -4567,6 +4682,16 @@
 			(justify left bottom)
 		)
 		(uuid "2cf67621-e668-4c04-8e8c-a4854766d0f7")
+	)
+	(label "WS_OUT_4"
+		(at 294.64 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e09d58c-0105-4ad4-a70a-7bda9f2859e0")
 	)
 	(label "SD_IN_3"
 		(at 205.74 151.13 180)
@@ -4687,6 +4812,16 @@
 			(justify left bottom)
 		)
 		(uuid "792513eb-521a-4541-9f46-1a6a0f8c74b4")
+	)
+	(label "SCK_OUT_3"
+		(at 294.64 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bf11371-a9ee-4d0c-9de1-4a59bbbef9c1")
 	)
 	(label "SD_IN_7"
 		(at 100.33 72.39 180)
@@ -4948,6 +5083,16 @@
 		)
 		(uuid "abaf6679-4769-467f-a40e-7f1abcb6da00")
 	)
+	(label "WS_OUT_3"
+		(at 294.64 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad8d100f-a4ac-4807-90af-b39af28edbdb")
+	)
 	(label "SD_IN_8"
 		(at 267.97 241.3 180)
 		(effects
@@ -5058,6 +5203,16 @@
 		)
 		(uuid "c087c106-295d-47d1-96a4-d451b01a7f32")
 	)
+	(label "SCK_OUT_1"
+		(at 294.64 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c344ad1b-0ce1-40f3-8413-20b658a9f9eb")
+	)
 	(label "SCK_IN"
 		(at 100.33 44.45 180)
 		(effects
@@ -5077,6 +5232,16 @@
 			(justify right bottom)
 		)
 		(uuid "c89eb791-ec69-48c3-a31e-ae6d21e692f6")
+	)
+	(label "WS_OUT_1"
+		(at 294.64 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca0e175d-387e-4d72-b07f-c27cdc69a3d4")
 	)
 	(label "SCK_IN"
 		(at 121.92 62.23 0)
@@ -5157,6 +5322,16 @@
 			(justify left bottom)
 		)
 		(uuid "de489443-1023-422c-85ae-a5631e747f41")
+	)
+	(label "SCK_OUT_4"
+		(at 294.64 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "debbaf56-0302-4ee1-88fa-e600b41f0f75")
 	)
 	(label "WS_IN"
 		(at 100.33 46.99 180)
@@ -5257,6 +5432,16 @@
 			(justify left bottom)
 		)
 		(uuid "f434603e-143e-4b3e-96c7-0cda4f5b06d4")
+	)
+	(label "WS_OUT_2"
+		(at 294.64 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5f2b58a-9c94-48b3-bdf6-d44ba7d90ff9")
 	)
 	(label "SD_IN_7"
 		(at 205.74 196.85 180)
@@ -6168,6 +6353,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 63.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0895a0d2-4b2d-47ca-ae53-8075072b0ce8")
+		(property "Reference" "SCK_OUT_2"
+			(at 318.262 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 314.96 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 308.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "058bc5ff-20ed-48ef-ab22-8f22a1d11388")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "SCK_OUT_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 271.78 207.01 0)
 		(unit 1)
@@ -6259,7 +6522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e0f7f5f-ac3f-4726-b234-f8abc0a573ad")
-		(property "Reference" "SCK"
+		(property "Reference" "SCK1"
 			(at 84.836 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +6582,7 @@
 		(instances
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
-					(reference "SCK")
+					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -6844,6 +7107,84 @@
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 48.26 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ac5cee1-d15b-4ded-997a-17ddd8d06b75")
+		(property "Reference" "WS_OUT_2"
+			(at 319.278 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 316.23 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 309.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "902a8b6f-8045-4099-96ff-28c5bbc713e0")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "WS_OUT_2")
 					(unit 1)
 				)
 			)
@@ -8168,7 +8509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39f05c56-b618-4c81-b731-385524758725")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 40.64 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +8569,7 @@
 		(instances
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -9684,6 +10025,84 @@
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 68.58 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59f00a78-137c-40c8-9429-8585baa5f2e3")
+		(property "Reference" "SCK_OUT_4"
+			(at 318.262 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 314.96 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 308.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d369b9e-8e17-4c2b-84c7-0a792dc979b7")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "SCK_OUT_4")
 					(unit 1)
 				)
 			)
@@ -12866,6 +13285,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 45.72 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab9f0148-6ce6-4fa0-9ba2-e28a3b7a3b4c")
+		(property "Reference" "WS_OUT_1"
+			(at 319.278 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 316.23 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 309.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88fd775d-3567-482b-8b64-20c0ab9d3766")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "WS_OUT_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 161.29 0)
 		(unit 1)
@@ -13695,6 +14192,162 @@
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 50.8 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc5cc6b6-96c5-498e-8a8e-2be41e8488f2")
+		(property "Reference" "WS_OUT_3"
+			(at 319.278 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 316.23 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 309.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5efd0067-50c2-4168-9d07-6a851c09078e")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "WS_OUT_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 60.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd9a130-68c0-4399-aa49-973146db6b8d")
+		(property "Reference" "SCK_OUT_1"
+			(at 318.262 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 314.96 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 308.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2ed006f-d96e-4eaa-97ec-20d24afe26b6")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "SCK_OUT_1")
 					(unit 1)
 				)
 			)
@@ -15400,6 +16053,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 53.34 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db59464f-7ada-4a69-9011-fb0087cec794")
+		(property "Reference" "WS_OUT_4"
+			(at 319.278 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 316.23 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 309.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fc7f007-8800-415e-8168-6b8f4a310dda")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "WS_OUT_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 83.82 144.78 0)
 		(unit 1)
@@ -15631,6 +16362,84 @@
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 66.04 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1949ac1-6f32-4a2d-956e-dc4f7e9af379")
+		(property "Reference" "SCK_OUT_3"
+			(at 318.262 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 314.96 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 308.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecd3b50e-62ce-4f64-b33e-c931eb8d7366")
+		)
+		(instances
+			(project "Taunoe_akustiline_sensor"
+				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
+					(reference "SCK_OUT_3")
 					(unit 1)
 				)
 			)
@@ -16064,7 +16873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f881cacc-00cf-4971-896a-357a2ef98cf7")
-		(property "Reference" "WS"
+		(property "Reference" "WS1"
 			(at 85.344 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16123,7 +16932,7 @@
 		(instances
 			(project "Taunoe_akustiline_sensor"
 				(path "/8e75d447-3d22-4212-8764-825fae85f2b3"
-					(reference "WS")
+					(reference "WS1")
 					(unit 1)
 				)
 			)
